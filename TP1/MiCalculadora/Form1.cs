@@ -68,7 +68,7 @@ namespace MiCalculadora
         {
             if(e.CloseReason == CloseReason.UserClosing)
             {
-                DialogResult resultado = MessageBox.Show("¿Está seguro de querer salir?", "Cerrar", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
+                DialogResult resultado = MessageBox.Show("¿Está seguro de querer salir?", "Cerrar", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
                 if(resultado != DialogResult.Yes)
                 {
                     e.Cancel = true;
