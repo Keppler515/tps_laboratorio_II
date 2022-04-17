@@ -7,7 +7,7 @@ namespace TEST
     {
         static void Main(string[] args)
         {
-            Operando test = new Operando(40);
+            Operando test = new Operando();
 
             Console.WriteLine(test.BinarioDecimal("11010010"));
 
